@@ -26,8 +26,8 @@ body {
 }
 .submit {
     margin-top: 20px;
-    padding-right: 57px;
-    padding-left: 57px;
+    padding-right: 57.5px;
+    padding-left: 57.5px;
     padding-top: 5px;
     padding-bottom: 5px;
     border: none;
@@ -36,6 +36,7 @@ body {
     margin-top: 10px;
     cursor: pointer;
     transition: box-shadow 0.3s ease, transform 0.2s ease;
+    text-align: center;
 
 }
 
@@ -47,6 +48,7 @@ body {
     opacity: 0.6;
 }
 .enter {
+    display: block;
     padding-right: 3px;
     padding-left: 3px;
     padding-top: 5px;
